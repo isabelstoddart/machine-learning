@@ -14,9 +14,9 @@ This didn’t change much. The training and testing plots went from this:
 ￼
 To this:
 
-![]((2,2)TraintSet.png)
+![](22TraintSet.png)
 
-![]((2,2)TestSet.png)
+![](22TestSet.png)
 
 ￼
 This change resulted in the ridge regression model doing better, but didn’t make any change anywhere else.
@@ -29,9 +29,9 @@ This had a better result. False positive rate went down for most of them, but th
 
 Here are the plots:
 
-￼![]((2,2)NoNFeatTrain.png)
+￼![](22NoNFeatTrain.png)
 
-![]((2,2)NoNFeatTest.png)
+![](22NoNFeatTest.png)
 ￼
 
 Then, finally, I included both unigrams and bigrams. 
@@ -40,9 +40,9 @@ hv = HashingVectorizer(alternate_sign=False, ngram_range = (1,2))
 
 This did the same on the training set, but better on the test set. A lot of the models had better true positive rates. Plots are below:
 
-￼![]((1,2)Train.png)
+￼![](12Train.png)
 
-![]((1,2)Test.png)
+![](12Test.png)
 ￼
 Next Steps:
 
