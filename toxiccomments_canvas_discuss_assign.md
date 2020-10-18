@@ -14,7 +14,7 @@ This didn’t change much. The training and testing plots went from this:
 ￼
 To this:
 
-![](22TraintSet.png)
+![](22TrainSet.png)
 
 ![](22TestSet.png)
 
