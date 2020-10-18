@@ -14,11 +14,14 @@ I started by changing the Hashing vectorizer to include only bigrams. I changed 
 
 This didn’t change much. The training and testing plots went from this:
 
+
 ![](originalTrainSet.png)
 
 ![](originalTestSet.png)
 ￼
+
 To this:
+
 
 ![](22TrainSet.png)
 
@@ -36,9 +39,11 @@ This had a better result. False positive rate went down for most of them, but th
 
 Here are the plots:
 
+
 ￼![](22NoNFeatTrain.png)
 
 ![](22NoNFeatTest.png)
+
 ￼
 ### Third Change
 
@@ -48,9 +53,11 @@ Then, finally, I included both unigrams and bigrams, to see if includong all sin
 
 This did the same on the training set, but better on the test set. A lot of the models had better true positive rates. Plots are below:
 
+
 ￼![](12Train.png)
 
 ![](12Test.png)
+
 ￼
 ### Next Steps
 
