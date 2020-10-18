@@ -1,4 +1,4 @@
-##Canvas Discussion Assignment 1
+## Canvas Discussion Assignment 1
 
 To start, I changed my parameter random_state to 95. Taking a quick look at the data, some things I am interested in looking at, that I think are common in the toxic comments, are all caps words, punctuation, and groups of words together. These are just some things I picked up on first glance at the data, I eventually want to explore more than this. I noticed there aren’t a lot of all caps words so I want to add this later. There also isn’t a lot of punctuation used, so I’ll look at this later too. For the future, I’m interested in when there are explanation points and text in parentheses. 
 
