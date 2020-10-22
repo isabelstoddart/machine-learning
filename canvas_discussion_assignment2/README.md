@@ -9,4 +9,7 @@ I then checked other parameters in the ridge classifier to see what would happen
 
 ### Results of the different alpha parameters I tried
 
-![](CanvasAssign2.png)
+![](canvasassignment2pic1.png)
+![](canvasassign2pic2.png)
+![](canvasassign2pic3.png)
+![](canvasassign2pic4.png)
