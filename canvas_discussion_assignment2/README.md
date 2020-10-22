@@ -7,4 +7,6 @@ I checked alpha = 5, alpha = 10, and alpha = 20, which didn’t have any signifi
 
 I then checked other parameters in the ridge classifier to see what would happen. I set normalize to True, instead of its default False and it drastically decreased the performance on the model. I also changed fit_intercept to False, instead of its default True and it decreased the performance of the model as well. 
 
-# Results of the different alpha parameters I tried
+### Results of the different alpha parameters I tried
+
+![](CanvasAssign2.pdf)
