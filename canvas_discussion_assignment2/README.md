@@ -12,4 +12,4 @@ I then checked other parameters in the ridge classifier to see what would happen
 ![](canvasassignment2pic1.png)
 ![](canvasassign2pic2.png)
 ![](canvasassign2pic3.png)
-![](canvasassign2pic4.png)
+![](Canvasassign2pic4.png)
