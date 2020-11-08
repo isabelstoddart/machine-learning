@@ -19,8 +19,8 @@ I then tried alpha = 0.05 but this got a very similar TP and FP rate as alpha =0
 I realized at this point that the TP and FP rate didn't change from for values of alpha between 0.0001 and 0.1, so I tried alpha=0.00001 so see if a value under 0.0001 would do better. alpha = 0.00001 did a little bit worse than alpha = 0.0001 on the TP rate. I have included a screen shot on the performace for alpha=0.00001 as well as a close up of the performance on the test set for alpha=0.00001 and alpha=0.0001 to show the close results between them, but that ultimately alpha=0.0001 did better.
 ![](alpha=0.00001.png)
 ### Small 0.00001
-![](0.00001 small.png)
+![](0.00001small.png)
 ### Small 0.0001
-![](0.0001 small.png)
+![](0.0001small.png)
 ## Conclusion
 In the end, I determined that the default value alpha=0.0001 did the best for the SVM model. This made me conclude that high regularization does not have much of an affect here and therefore is not needed, so the smaller regularization does the best. I am interested is playing around with other parameters in the SVM model to see if changing any make the model do better. 
