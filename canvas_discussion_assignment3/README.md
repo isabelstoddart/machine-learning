@@ -16,7 +16,7 @@ For my third change, I tried alpha = 0.5 just to see if somewhere between 0.1 an
 I then tried alpha = 0.05 but this got a very similar TP and FP rate as alpha =0.0001.
 ![](alpha=0.05.png)
 ### Fifth Change
-I realized at this point that the TP and FP rate didn't change from for values of alpha between 0.0001 and 0.1, so I tried alpha=0.00001 so see if a value under 0.0001 would do better. alpha = 0.00001 did a little bit worse than alpha = 0.0001 on the TP rate. I have included a screen shot on the performace for alpha=0.00001 as well as a close up of the performance on the test set for alpha=0.00001 and alpha=0.0001 to show the close results between them, but that ultimately alpha=0.0001 did better.
+I realized at this point that the TP and FP rate didn't change for values of alpha between 0.0001 and 0.1, so I tried alpha=0.00001 to see if a value under 0.0001 would do better. alpha = 0.00001 did a little bit worse than alpha = 0.0001 on the TP rate. I have included a screen shot on the performace for alpha=0.00001 as well as a close up of the performance on the test set for alpha=0.00001 and alpha=0.0001 to show the close results between them, but that ultimately alpha=0.0001 did better.
 ![](alpha=0.00001.png)
 ### Small 0.00001
 ![](0.00001small.png)
