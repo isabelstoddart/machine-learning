@@ -8,4 +8,4 @@ If I decide to use feature.canny for my final iteration, I will use the default 
 
 I have included the images of my tests below:
 
-![](alpha=0.0001.png)
+![](Feature.canny.png)
