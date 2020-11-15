@@ -27,6 +27,13 @@ I tried (8,8) and the perceptron train and test performance got worse, while the
 
 I have included the images of these tests below:
 
+![](HOG.png)
+
 ### Conclusion
 
-As of now the HOG with all of the default values (except pixels per cell = (10,10)) is doing the best for the perceptron and the multilayer perceptron, with a little bit higher performance on the mulitlayer perceptron. Some of the other models do better for nn or prc individually so I will keep that in mind when I decide which one I ultimately use.  
+As of now the HOG with all of the default values (except pixels per cell = (10,10)) is doing the best for the perceptron and the multilayer perceptron, with a little bit higher performance on the mulitlayer perceptron. Some of the other models do better for nn or prc individually so I will keep that in mind when I decide which one I ultimately use.
+
+### Next Steps
+
+* I want to play around with Blob Detection and see if it has better performance. I think it could do well.
+* I want to play around with the parameters of prc and nn to see if this makes any changes.
