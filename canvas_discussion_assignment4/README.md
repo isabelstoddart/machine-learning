@@ -1,6 +1,6 @@
 # Canvas Discussion Assignment 4
 ## Process
-### Feature.canny
+### Canny Edge Detection
 I started this assignment by playing around with the feature.canny feature set representation. This was the default feature set representation for this assignment. I tested out several different sigma values to see if this would have any effect on performance.
 
 I tested the default sigma, sigma=1.5, sigma=0.5, and sigma=1.3. The multilayer perceptron TP test rate went up for sigma=1.5 compared to the default, but the perceptron TP test rate went down. Both the perceptron and multilayer perceptron did worse for sigma=0.5. At this point, I noticed that the perceptron model was doing best for all of these and I concluded that a sigma value between 1.0 and 1.5 would do the best. I tested out multiple sigma values in between 1.0 and 1.5. For sigma=1.3, the perceptron did worse than the default sigma value. The multilayer perceptron did better than the default sigma, but still not as good as the perceptron. None of the other values between 1.0 and 1.5 did better than the default either, so I concluded that the default value of sigma was the best.
