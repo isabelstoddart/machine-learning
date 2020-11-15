@@ -33,7 +33,7 @@ I have included the images of these tests below:
 
 ### Conclusion
 
-As of now the HOG with all of the default values (except pixels per cell = (10,10)) is doing the best for the perceptron and the multilayer perceptron, with a little bit higher performance on the mulitlayer perceptron. The fluctuation for this feature set representation is a little bit concerning. I didn't see that much fluctuation in the other ones. Some of the other models do better for nn or prc individually so I will keep that in mind when I decide which one I ultimately use.
+As of now the HOG with all of the default values (except pixels per cell = (10,10)) is doing the best for the perceptron and the multilayer perceptron, with a little bit higher performance on the multilayer perceptron. The fluctuation for this feature set representation is a little bit concerning. I didn't see that much fluctuation in the other ones. Some of the other models do better for nn or prc individually so I will keep that in mind when I decide which one I ultimately use.
 
 ### Next Steps
 
