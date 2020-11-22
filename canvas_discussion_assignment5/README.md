@@ -19,4 +19,4 @@ I have included images of my results below:
 
 ## Conclusion
 
-From these tests, I conclude that there is no change in test performance unless there are more than 4 layers. I think it would be beneficial to test a few more varieties to know if this theory is always true. The test performance results I got varied between just 2 values (a little above 0.8 and a little below 0.9) for every instance. Overall, because there was no change that resulted in a test performance better than the default, I will keep the default parameter value of (100,).
+From these tests, I conclude that there is no change in test performance unless there are more than 4 layers. I think it would be beneficial to test a few more variations to know if this theory is always true. The test performance results I got varied between just 2 values (a little above 0.8 and a little below 0.9) for every instance. Overall, because there was no change that resulted in a test performance better than the default, I will keep the default parameter value of (100,).
