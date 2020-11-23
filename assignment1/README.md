@@ -12,3 +12,8 @@
 * Working with perceptron as my model as of now
 * get rid of word count
 * get rid of punctuation count
+
+## Iteration 2
+### Changes Made
+* change model from Perceptron to SVM LinearSVC
+* change C to C=1000
