@@ -17,3 +17,10 @@
 ### Changes Made
 * change model from Perceptron to SVM LinearSVC
 * change C to C=1000
+
+## Iteration 3
+### Changes Made
+* tried to make an ensemble model with SVM, Perceptron, Ridge Regression, and Logistic Regression to see what the results would be. After making this ensemble, while playing around with these four models to get them all to perform better I realized ridge regression performs better than them all with some changes, primarily when using Stochastic Gradient descent
+* Added solver='sag' (Stochastic Gradient descent) to ridge regression
+* Added normalize=True to ridge regression because normalizing helps when using Stochastic Gradient descent
+* Played around with alpha values and found that alpha=10 had the best true positive rate, so I set alpha=10
