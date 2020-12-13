@@ -21,7 +21,19 @@ The amount of clusters I chose is 25. The elbow on my elbow graph seemed to be a
 
 ### Final Elbow Graph
 
+![](elbow.png)
+
 
 ### Example of Final Clusters
 
+![](dog.png)
 
+A cluster with dog food products
+
+![](tea.png)
+
+A cluster with tea products
+
+![](chip.png)
+
+A cluster with chip products
