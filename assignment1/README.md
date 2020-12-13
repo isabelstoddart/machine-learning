@@ -24,3 +24,7 @@
 * Added solver='sag' (Stochastic Gradient descent) to ridge regression
 * Added normalize=True to ridge regression because normalizing helps when using Stochastic Gradient descent
 * Played around with alpha values and found that alpha=10 had the best true positive rate, so I set alpha=10
+
+## Final Iteration
+
+My final iteration uses the ridge regression classifier with stochastic gradient descent and alpha value of 10. My hashing vectorizer parameters include n_features=(2xx6), alternate_sign=True, and ngram_range=(1,2). I am using additional features exclaim_count and s_count to count the number of exclamation points and the number of times the word shit occurs. I went through a few different models before ending with ridge regression. Some runner ups were the perceptron model, svm, and logistic regression. The ridge regression classifier ended up doing the best. It has a very high true positive rate, which sacrifices the false positive rate but I think that is okay, especially here where it is more important to tag a comment as toxic even if it is not actually toxic. It is better to be safe than sorry.
